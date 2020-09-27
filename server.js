@@ -5,8 +5,7 @@ const app = express();
 
 const PORT = 5000;
 
-const MONGODB_URI =
-  'mongodb+srv://jaewon:jaewon@emaily.vz1zo.mongodb.net/emaily-dev?retryWrites=true&w=majority';
+const MONGODB_URI 
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
